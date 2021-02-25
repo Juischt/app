@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "/Runner.xcworkspace"
-                XCODE_SCHEME: "new_Scheme"
+                XCODE_SCHEME: "Flutter"
             xcode: latest
             cocoapods: default
         scripts:
